@@ -2,4 +2,4 @@
 
 Check out the time of the location that you choose!
 ## Demo
-![](demo.mov)
+![](assets/demo.mov)
