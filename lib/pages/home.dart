@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -10,12 +8,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-<<<<<<< Updated upstream
-  @override
-  Widget build(BuildContext context) {
-=======
   Map data = {};
-  Timer? _timer;
 
   @override
   Widget build(BuildContext context) {
@@ -26,21 +19,9 @@ class _HomeState extends State<Home> {
     String bgImage = data['isDaytime'] ? 'day_time.jpg' : 'night_time.jpg';
     Color bgColor = data['isDaytime'] ? Colors.blue : Colors.indigo;
 
->>>>>>> Stashed changes
     return Scaffold(
       backgroundColor: bgColor,
       body: SafeArea(
-<<<<<<< Updated upstream
-          child: Column(
-        children: <Widget>[
-          TextButton.icon(
-              onPressed: () {
-                Navigator.pushNamed(context, '/location');
-              },
-              icon: Icon(Icons.edit_location),
-              label: Text("Edit Location"))
-        ],
-=======
           child: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
@@ -93,7 +74,6 @@ class _HomeState extends State<Home> {
             ],
           ),
         ),
->>>>>>> Stashed changes
       )),
     );
   }
